@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [main,develop]
+    branches: [main, develop]
   pull_request:
-    branches: [main,develop]
+    branches: [main, develop]
 
 jobs:
   install-build-test:
@@ -15,6 +15,6 @@ jobs:
       - uses: actions/setup-node@v3
       - run: npm ci
       - run: npm run test:ci
-      # - uses: codecov/codecov-action@v3
-      #   env:
-      #     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      - uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

@@ -1,5 +1,7 @@
 ![workflow](https://github.com/afgallo/mongokai/actions/workflows/main.yml/badge.svg)
 
+<!-- [![codecov](https://codecov.io/gh/afgallo/mongokai/branch/main/graph/badge.svg?token=19Y3ZLIDZF)](https://codecov.io/gh/afgallo/mongokai) -->
+
 # MongoKai
 
 Mongo 界 (MongoKai) - "Kai" means world or realm in Japanese, suggesting the connection between Hapi and MongoDB creates a new realm of possibilities.
