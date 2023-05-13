@@ -1,6 +1,5 @@
 ![workflow](https://github.com/afgallo/mongokai/actions/workflows/main.yml/badge.svg)
-
-<!-- [![codecov](https://codecov.io/gh/afgallo/mongokai/branch/main/graph/badge.svg?token=19Y3ZLIDZF)](https://codecov.io/gh/afgallo/mongokai) -->
+[![codecov](https://codecov.io/gh/afgallo/mongokai/branch/main/graph/badge.svg?token=0OUUZBFVGC)](https://codecov.io/gh/afgallo/mongokai)
 
 # MongoKai
 
