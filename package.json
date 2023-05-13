@@ -1,0 +1,42 @@
+{
+  "name": "mongokai",
+  "version": "1.0.0",
+  "description": "A hapi plugin that connects to and exposes a mongo instance in your toolkit",
+  "author": "Andre Gallo <afgallo@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab -a @hapi/code -L -l -t 100",
+    "test:ci": "lab -a @hapi/code -L -l -t 100 -r lcov -o lcov.info",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "joi": ">=17.9.x",
+    "mongodb": ">= 5.5.x"
+  },
+  "devDependencies": {
+    "@hapi/code": "9.x.x",
+    "@hapi/eslint-plugin": "6.x.x",
+    "@hapi/hapi": "21.x.x",
+    "@hapi/lab": "25.x.x",
+    "eslint": "8.x.x",
+    "eslint-config-prettier": "8.x.x",
+    "eslint-config-standard": "17.x.x",
+    "eslint-plugin-prettier": "4.x.x",
+    "prettier": "2.x.x",
+    "sinon": "15.x.x"
+  },
+  "peerDependencies": {
+    "joi": ">=17.9.x",
+    "mongodb": ">= 5.5.x"
+  },
+  "keywords": [
+    "hapi",
+    "mongo",
+    "nosql"
+  ]
+}
