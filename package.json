@@ -3,7 +3,10 @@
   "version": "1.2.0",
   "description": "A hapi plugin that connects to and exposes a mongo instance in your toolkit",
   "author": "Andre Gallo <afgallo@gmail.com>",
-  "repository": "git://github.com/afgallo/mongokai",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afgallo/mongokai.git"
+  },
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
