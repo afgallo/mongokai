@@ -1,6 +1,6 @@
 {
   "name": "mongokai",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A hapi plugin that connects to and exposes a mongo instance in your toolkit",
   "author": "Andre Gallo <afgallo@gmail.com>",
   "repository": "git://github.com/afgallo/mongokai",
