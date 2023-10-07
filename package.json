@@ -16,8 +16,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "joi": ">= 17.10.x",
-    "mongodb": ">= 6.1.x"
+    "joi": "17.11.x",
+    "mongodb": "6.1.x"
   },
   "devDependencies": {
     "@hapi/code": "9.x.x",
