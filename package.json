@@ -19,7 +19,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "joi": "17.11.x",
+    "joi": "17.11.1",
     "mongodb": "6.3.0"
   },
   "devDependencies": {
