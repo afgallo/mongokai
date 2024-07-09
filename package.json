@@ -19,8 +19,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "joi": "17.13.1",
-    "mongodb": "6.7.0"
+    "joi": "17.13.3",
+    "mongodb": "6.8.0"
   },
   "devDependencies": {
     "@hapi/code": "9.x.x",
@@ -28,11 +28,11 @@
     "@hapi/hapi": "21.x.x",
     "@hapi/lab": "25.x.x",
     "eslint": "8.x.x",
-    "eslint-config-prettier": "8.x.x",
+    "eslint-config-prettier": "9.x.x",
     "eslint-config-standard": "17.x.x",
-    "eslint-plugin-prettier": "4.x.x",
-    "prettier": "2.x.x",
-    "sinon": "15.x.x"
+    "eslint-plugin-prettier": "5.x.x",
+    "prettier": "3.x.x",
+    "sinon": "18.x.x"
   },
   "peerDependencies": {
     "joi": ">= 17.10.x",
